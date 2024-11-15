@@ -27,8 +27,6 @@ public class Main {
         System.out.println("Разность (a - b): " + difference);
         System.out.println("Произведение (a * b): " + product);
         System.out.println("Частное (a / b): " + (b != 0 ? quotient : "Деление на ноль"));
-        
-        // Закрытие сканера
         scanner.close();
     }
 }
